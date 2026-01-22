@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1769056756659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1769056756659,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Mine: Markdown, PDF & Word Vault - Support</title>\n    <style>\n        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }\n        h1 { color: #007AFF; }\n        .contact { background: #f9f9f9; padding: 15px; border-radius: 8px; }\n    </style>\n</head>\n<body>\n    <h1>Mine: Your Sovereign Intelligence</h1>\n    <p>A 100% private, local-first document vault for Markdown, PDF, and Word.</p>\n    \n    <div class=\"contact\">\n        <h2>Support & Contact</h2>\n        <p>If you need help or have suggestions, please reach out:</p>\n        <p><strong>Email: suapril@qq.com</strong></p>\n    </div>\n\n    <h2>Privacy Commitment</h2>\n    <p><strong>100% Privacy.</strong> Your files never leave your device. We collect <strong>zero</strong> data. All processing is done locally on your Mac.</p>\n    \n    <footer>\n        <p>© 2026 Su Yan. Built for knowledge sovereignty.</p>\n    </footer>\n</body>\n</html>"
+        }
+    ]
+}
