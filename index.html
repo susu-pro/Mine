@@ -1,29 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Mine: Markdown, PDF & Word Vault - Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine - Support</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
+        body { font-family: sans-serif; line-height: 1.6; max-width: 860px; margin: 40px auto; padding: 20px; color: #333; }
         h1 { color: #007AFF; }
         .contact { background: #f9f9f9; padding: 15px; border-radius: 8px; }
+        .lang-switch { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+        .lang-link { text-decoration: none; color: #007AFF; padding: 6px 10px; border: 1px solid #d6e4ff; border-radius: 999px; background: #f5f8ff; }
+        .lang-link.active { background: #007AFF; color: #fff; border-color: #007AFF; }
+        .muted { color: #666; }
+        html.js .lang { display: none; }
+        html.js .lang.active { display: block; }
     </style>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 <body>
-    <h1>Mine: Your Sovereign Intelligence</h1>
-    <p>A 100% private, local-first document vault for Markdown, PDF, and Word.</p>
-    
-    <div class="contact">
-        <h2>Support & Contact</h2>
-        <p>If you need help or have suggestions, please reach out:</p>
-        <p><strong>Email: 3251993250@qq.com</strong></p>
-    </div>
+    <nav class="lang-switch" aria-label="Language switch">
+        <a class="lang-link" data-lang="zh-CN" href="?lang=zh-CN">🇨🇳 简体中文</a>
+        <a class="lang-link" data-lang="zh-TW" href="?lang=zh-TW">繁體中文</a>
+        <a class="lang-link" data-lang="en" href="?lang=en">🇺🇸 English</a>
+        <a class="lang-link" data-lang="ja" href="?lang=ja">🇯🇵 日本語</a>
+        <a class="lang-link" data-lang="ko" href="?lang=ko">🇰🇷 한국어</a>
+        <a class="lang-link" data-lang="fr" href="?lang=fr">🇫🇷 Français</a>
+        <a class="lang-link" data-lang="de" href="?lang=de">🇩🇪 Deutsch</a>
+    </nav>
 
-    <h2>Privacy Commitment</h2>
-    <p><strong>100% Privacy.</strong> Your files never leave your device. We collect <strong>zero</strong> data. All processing is done locally on your Mac.</p>
-    
-    <footer>
+    <section class="lang" data-lang="zh-CN">
+        <h1>Mine：你的主权智能</h1>
+        <p>一个 100% 私密、本地优先的 Markdown / PDF / Word 文档库。</p>
+        <div class="contact">
+            <h2>支持与联系</h2>
+            <p>如需帮助或建议，请联系：</p>
+            <p><strong>邮箱：<a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>隐私承诺</h2>
+        <p><strong>100% 隐私。</strong>你的文件不会离开设备，我们不收集任何数据，所有处理都在你的 Mac 上完成。</p>
+        <p><a href="privacy-zh.html">隐私政策</a></p>
+    </section>
+
+    <section class="lang" data-lang="zh-TW">
+        <h1>Mine：你的主權智能</h1>
+        <p>一個 100% 私密、本機優先的 Markdown / PDF / Word 文件庫。</p>
+        <div class="contact">
+            <h2>支援與聯絡</h2>
+            <p>如需協助或建議，請聯絡：</p>
+            <p><strong>電子郵件：<a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>隱私承諾</h2>
+        <p><strong>100% 隱私。</strong>你的檔案不會離開裝置，我們不收集任何資料，所有處理都在你的 Mac 上完成。</p>
+        <p><a href="privacy-zh-TW.html">隱私政策</a></p>
+    </section>
+
+    <section class="lang" data-lang="en">
+        <h1>Mine: Your Sovereign Intelligence</h1>
+        <p>A 100% private, local-first document vault for Markdown, PDF, and Word.</p>
+        <div class="contact">
+            <h2>Support & Contact</h2>
+            <p>If you need help or have suggestions, please reach out:</p>
+            <p><strong>Email: <a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>Privacy Commitment</h2>
+        <p><strong>100% Privacy.</strong> Your files never leave your device. We collect zero data. All processing is done locally on your Mac.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </section>
+
+    <section class="lang" data-lang="ja">
+        <h1>Mine：あなたの主権インテリジェンス</h1>
+        <p>Markdown / PDF / Word のための 100% プライベートなローカルファースト文書保管庫。</p>
+        <div class="contact">
+            <h2>サポートと連絡</h2>
+            <p>お問い合わせはこちら：</p>
+            <p><strong>メール：<a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>プライバシーへの取り組み</h2>
+        <p><strong>100% プライバシー。</strong>ファイルはデバイス外に出ません。データは一切収集せず、すべての処理は Mac 上で行われます。</p>
+        <p><a href="privacy-ja.html">プライバシーポリシー</a></p>
+    </section>
+
+    <section class="lang" data-lang="ko">
+        <h1>Mine: 당신의 주권형 인텔리전스</h1>
+        <p>Markdown, PDF, Word를 위한 100% 프라이빗 로컬 우선 문서 보관함.</p>
+        <div class="contact">
+            <h2>지원 및 문의</h2>
+            <p>도움이 필요하거나 제안이 있다면 연락 주세요:</p>
+            <p><strong>이메일: <a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>개인정보 보호 약속</h2>
+        <p><strong>100% 개인정보 보호.</strong> 파일은 기기를 떠나지 않습니다. 데이터는 수집하지 않으며 모든 처리는 Mac에서 이뤄집니다.</p>
+        <p><a href="privacy-ko.html">개인정보 처리방침</a></p>
+    </section>
+
+    <section class="lang" data-lang="fr">
+        <h1>Mine : votre intelligence souveraine</h1>
+        <p>Un coffre-fort documentaire 100 % privé et local pour Markdown, PDF et Word.</p>
+        <div class="contact">
+            <h2>Support et contact</h2>
+            <p>Besoin d’aide ou de suggestions ? Contactez-nous :</p>
+            <p><strong>E-mail : <a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>Engagement de confidentialité</h2>
+        <p><strong>100 % confidentialité.</strong> Vos fichiers ne quittent jamais votre appareil. Nous ne collectons aucune donnée. Tout est traité localement sur votre Mac.</p>
+        <p><a href="privacy-fr.html">Politique de confidentialité</a></p>
+    </section>
+
+    <section class="lang" data-lang="de">
+        <h1>Mine: Ihre souveräne Intelligenz</h1>
+        <p>Ein zu 100 % privater, lokal-first Dokument-Tresor für Markdown, PDF und Word.</p>
+        <div class="contact">
+            <h2>Support & Kontakt</h2>
+            <p>Wenn Sie Hilfe benötigen oder Vorschläge haben, kontaktieren Sie uns:</p>
+            <p><strong>E-Mail: <a href="mailto:3251993250@qq.com">3251993250@qq.com</a></strong></p>
+        </div>
+        <h2>Datenschutzversprechen</h2>
+        <p><strong>100 % Datenschutz.</strong> Ihre Dateien verlassen niemals Ihr Gerät. Wir erheben keinerlei Daten. Alle Verarbeitung erfolgt lokal auf Ihrem Mac.</p>
+        <p><a href="privacy-de.html">Datenschutzerklärung</a></p>
+    </section>
+
+    <footer class="muted">
         <p>© 2026 Su Yan. Built for knowledge sovereignty.</p>
     </footer>
+
+    <script>
+        (function () {
+            const titles = {
+                "zh-CN": "Mine - 支持",
+                "zh-TW": "Mine - 支援",
+                "en": "Mine - Support",
+                "ja": "Mine - サポート",
+                "ko": "Mine - 지원",
+                "fr": "Mine - Assistance",
+                "de": "Mine - Support"
+            };
+
+            function normalizeLang(input) {
+                if (!input) return "zh-CN";
+                const lower = input.toLowerCase();
+                if (lower.startsWith("zh")) {
+                    if (lower.includes("tw") || lower.includes("hk")) return "zh-TW";
+                    return "zh-CN";
+                }
+                if (lower.startsWith("ja")) return "ja";
+                if (lower.startsWith("ko")) return "ko";
+                if (lower.startsWith("fr")) return "fr";
+                if (lower.startsWith("de")) return "de";
+                return "en";
+            }
+
+            const params = new URLSearchParams(window.location.search);
+            const requested = params.get("lang");
+            const selected = normalizeLang(requested || navigator.language);
+
+            document.documentElement.lang = selected;
+            document.title = titles[selected] || titles["zh-CN"];
+
+            document.querySelectorAll(".lang").forEach((section) => {
+                section.classList.toggle("active", section.dataset.lang === selected);
+            });
+
+            document.querySelectorAll(".lang-link").forEach((link) => {
+                link.classList.toggle("active", link.dataset.lang === selected);
+            });
+        })();
+    </script>
 </body>
 </html>
